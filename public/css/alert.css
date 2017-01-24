@@ -1,0 +1,31 @@
+.alert {
+    position: relative;
+    background: #ddd;
+    border: 1px solid #d9d9d9;
+    padding: 1em;
+}
+
+.alert--info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.alert--success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.alert--warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.alert--error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.alert__close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}

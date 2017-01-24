@@ -1,0 +1,35 @@
+h1 {
+    font-weight: bold;
+}
+.logo {
+    color: #5eb5e0;
+    float: right;
+}
+
+.logo:hover {
+    color: #5eb5e0;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #65C400;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.icon-success {
+    color: #5CB85C;
+}
+
+.icon-danger {
+    color: #d60000;
+}
+
+.date {
+    display: block;
+    font-size: 0.9em;
+    color: #989898;
+    padding: 0 15px;
+}
